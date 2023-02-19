@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react';
-import { FaSearchLocation, FaCloudSun } from 'react-icons/fa';
+import { FaSearchLocation } from 'react-icons/fa';
 import { BiRefresh } from 'react-icons/bi';
 import useWeather from '../hooks/useWeather';
 import Loader from './Loader';

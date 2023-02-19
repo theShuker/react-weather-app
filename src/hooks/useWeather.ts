@@ -50,8 +50,8 @@ export default function () {
 
       setWeatherData(data);
       setIsLoading(false);
-    } catch (e) {
-      setError(e.message);
+    } catch {
+      setError("Error while updating weather...");
     }
   }
 
